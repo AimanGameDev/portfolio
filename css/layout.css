@@ -335,6 +335,16 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: csharp 2s ease;
   	-webkit-animation: csharp 2s ease;
 }
+.cpp {
+    width: 85%;
+    -moz-animation: cpp 2s ease;
+    -webkit-animation: cpp 2s ease;
+}
+.python {
+    width: 80%;
+    -moz-animation: python 2s ease;
+    -webkit-animation: python 2s ease;
+}
 .casualg {
   	width: 100%;
   	-moz-animation: casualg 2s ease;
@@ -389,6 +399,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+@-moz-keyframes cpp {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
 @-moz-keyframes casualg {
   0%   { width: 0px;  }
   100% { width: 100%;  }
@@ -433,6 +451,14 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes csharp {
   0%   { width: 0px;  }
   100% { width: 90%;  }
+}
+@-webkit-keyframes cpp {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes casualg {
   0%   { width: 0px;  }
