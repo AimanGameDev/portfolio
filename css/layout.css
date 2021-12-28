@@ -370,6 +370,11 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: arvr 2s ease;
   	-webkit-animation: arvr 2s ease;
 }
+.tools {
+   width: 100%;
+   -moz-animation: tools 2s ease;
+   -webkit-animation: tools 2s ease;
+}
 .shader {
     width: 65%;
     -moz-animation: shader 2s ease;
@@ -427,6 +432,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 85%;  }
 }
+@-moz-keyframes tools {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
 @-moz-keyframes shader {
   0%   { width: 0px;  }
   100% { width: 65%;  }
@@ -480,6 +489,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 85%;  }
 }
+@-webkit-keyframes tools {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
 @-webkit-keyframes shader {
   0%   { width: 0px;  }
   100% { width: 65%;  }
